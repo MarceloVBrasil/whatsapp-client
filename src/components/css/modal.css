@@ -1,0 +1,105 @@
+.modal
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 700px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.background
+{
+    position: absolute;
+    margin-top: 50px;
+    border-top: none;
+    height: 560px;
+    width: 299px;
+    background-color: white;
+} 
+
+.contact-form
+{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contact-form label
+{
+    margin-top: 10px;;
+}
+
+.contact-form input
+{
+    width: calc(100% - 10px);
+    padding: 10px 0px;
+}
+
+.contact-form input
+{
+    outline: none;
+}
+
+.close-btn
+{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.close-btn-conversations
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.submit-btn
+{
+    background-color: var(--btn-color);
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+     width: calc(100% - 5px);
+}
+
+.conversation-form
+{
+    margin-top: 50px;
+    font-size: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.conversations-box
+{
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+.checkbox
+{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.begin-conversation-btn
+{
+    width: calc(100% - 5px);
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0px;
+}

@@ -1,0 +1,17 @@
+.app--website-button
+{
+    padding: 1rem 2.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(168, 100%, 35%);
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.app--website-button:hover
+{
+    background-color: hsl(168, 100%, 30%);
+}

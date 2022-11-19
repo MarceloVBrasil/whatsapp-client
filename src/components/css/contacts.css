@@ -1,0 +1,62 @@
+.contacts-container
+{
+    background-color: white;
+    height: 560px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.contacts-container::-webkit-scrollbar
+{
+    width: 0rem;
+}
+
+.contacts-container:hover::-webkit-scrollbar
+{
+    width: 0.5rem;
+}
+
+.contacts-container::-webkit-scrollbar-track
+{
+    background-color: white;
+}
+
+.contacts-container::-webkit-scrollbar-thumb
+{
+    background-color: darkgray;
+}
+
+.contact-box
+{
+    margin-left: 15px;
+    font-family: 'arial';
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-box:hover
+{
+    background-color: rgb(245, 246, 246);
+}
+
+.contact-icon
+{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.line-break
+{
+    border-top: 1px solid lightgray;
+}
+
+.title
+{
+    font-family: 'arial';
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-left: 10px;
+}

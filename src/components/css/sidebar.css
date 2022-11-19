@@ -1,0 +1,81 @@
+:root
+{
+    --btn-color: rgb(0, 168, 132);
+    --btn-hover-color: rgb(0, 154, 123);
+}
+
+.sidebar-container
+{
+    width: 300px;
+    height: 700px;
+    border: 1px solid black;
+    margin-left: 1px;
+    border-radius: 10px;
+    flex: 1;
+   
+}
+
+.sidebar-container::-webkit-scrollbar
+{
+    width: 0rem;
+}
+
+.tabs
+{
+    height: 50px;
+    background-color: grey;
+     border-radius: 10px;
+     display: flex;
+}
+
+.tabs button
+{
+    background-color: var(--btn-color);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 2px;
+    flex: 1;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tabs button:hover
+{
+    background-color: var(--btn-hover-color);
+}
+
+.content
+{
+    height: 560px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar
+{
+    width: 0;
+}
+
+.contact-id
+{
+    color: rgb(160, 160, 160);
+}
+
+.action-btn
+{
+    width: calc(100% - 5px);
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.action-btn:hover
+{
+    background-color: var(--btn-hover-color);
+}
