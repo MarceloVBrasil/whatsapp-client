@@ -6,19 +6,12 @@
     scrollbar-width: 0;
 }
 
-.conversations-container::-webkit-scrollbar
-{
-    width: 0 !important;
-}
+
 
 ::-webkit-scrollbar {
     width: 0;
 }
 
-.conversations-container:hover::-webkit-scrollbar
-{
-    width: 0.0rem;
-}
 
 .conversations-container::-webkit-scrollbar-track
 {
