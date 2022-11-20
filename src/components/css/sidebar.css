@@ -7,12 +7,13 @@
 .sidebar-container
 {
     width: 300px;
-    height: 700px;
+    height: inherit;
     border: 1px solid black;
     margin-left: 1px;
-    border-radius: 10px;
-    flex: 1;
-   
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sidebar-container::-webkit-scrollbar
@@ -35,9 +36,9 @@
     border-radius: 10px;
     border: none;
     margin: 2px;
-    flex: 1;
     font-size: 20px;
     cursor: pointer;
+    width: 50%;
 }
 
 .tabs button:hover
@@ -47,7 +48,7 @@
 
 .content
 {
-    height: 560px;
+    height: 80%;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;

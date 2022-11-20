@@ -1,7 +1,6 @@
 .contacts-container
 {
     background-color: white;
-    height: 560px;
     overflow: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
