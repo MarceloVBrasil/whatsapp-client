@@ -29,7 +29,7 @@ function App() {
 }
 
 function goToMyWebsite() {
-  window.open("https://www.marcelobrasil.ca");
+  window.open("https://marcelobrasil.ca/");
 }
 
 export default App;
