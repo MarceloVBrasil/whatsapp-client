@@ -27,8 +27,8 @@
 
 .header-user-icon
 {
-    font-size: 20px;
-    margin-right: 5px;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
 }
 
 .header
@@ -37,7 +37,7 @@
     color: black;
     display: flex;
     align-items: center;
-    justify-content: 'flex-end';
+    justify-content: 'space-between';
     border-radius: 10px 10px 0px 0px;
     height: 5%;
     font-family: 'segoe-ui';
@@ -46,26 +46,26 @@
 
 .header-left
 {
-    flex: 12;
-    margin-left: 12px;
+    margin-left: 0.75rem;
     display: flex;
     align-items: center;
-    font-size: 17px;
+    font-size: 1rem;
+    width: 100%;
 }
 
 .header-left p
 {
     margin-left: 5px;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .header-right
 {
-    flex: 1;
     display: flex;
     justify-content: space-between;
-    margin-right: 12px;
-    font-size: 17px;
+    padding-right: 0.75rem;
+    font-size: 1rem;
+    width: 5rem;
 }
 
 .magnifyingGlass
@@ -92,7 +92,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 10px 50px;
+    margin: 0.6125rem 3rem;
 }
 
 .contactMessages
@@ -100,17 +100,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 10px 50px;
+    margin: 0.6125rem 3rem;
 }
 
 .my-message-box
 {
     border: none;
     background-color: var(--message-box-color);
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    min-width: 70px;
-    max-width: 700px;
+    border-radius: 0.6125rem;
+    padding: 0.3rem 0.6125rem;
+    min-width: 4rem;
+    max-width: 10rem;
     font-family: 'segoe-ui';
     font-weight: 400;
     font-size: 14.2px;
@@ -121,33 +121,33 @@
 {
     border: none;
     background-color: white;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    min-width: 70px;
-    max-width: 700px;
+    border-radius: 0.6125rem;
+    padding: 0.3rem 0.6125rem;
+    min-width: 4rem;
+    max-width: 10rem;
     font-family: 'segoe-ui';
     font-weight: 400;
-    font-size: 14.2px;
+    font-size: 0.875rem;
     word-wrap: break-word;
 }
 
 .contact-message-box span
 {
     font-weight: 900;
-    margin: 4px 0px;
+    margin: 0.25rem 0px;
 }
 
 .footer
 {
     background-color: rgb(240, 242, 245);
     width: 100%;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0.6125rem 0.6125rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 17px;
+    font-size: 1rem;
     padding: 5px 0;
-    height: 5%;
+   height: 5%;
 }
 
 .clip
@@ -162,11 +162,11 @@
 
 .footer input
 {
-    padding: 10px 12px;
-    border-radius: 10px;
+    padding: 0.3rem;
+    border-radius: 0.6125rem;
     border: none;
     width: 85%;
-    font-size: 15px;
+    font-size: 0.875rem;
     color: gray;
     box-sizing: border-box;
 
@@ -175,4 +175,14 @@
 .footer input:focus
 {
     outline: none;
+}
+
+@media (width < 600px) {
+    .footer input {
+        width: 80%;
+    }
+    .header, .footer {
+        height: auto;
+        padding: 0.25rem 0;
+    }
 }

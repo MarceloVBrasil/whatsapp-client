@@ -1,9 +1,9 @@
 .login-container
 {
-    width: 300px;
-    height: 700px;
+    width: 18.75rem;
+    height: 43.0rem;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 0.6125rem;
     font-family: 'arial';
 }
 
@@ -20,7 +20,7 @@
 
 .login-form
 {
-    height: 520px;
+    height: 33.5rem;
     background-image: url("../images/background.png");
     display: flex;
     flex-direction: column;
@@ -30,13 +30,13 @@
 
 .login-form label
 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .login-form input
 {
     width: calc(100% - 10px);
-    padding: 10px 0px;
+    padding: 0.6125rem 0px;
 }
 
 .login-form input:focus
@@ -46,12 +46,12 @@
 
 .top-btn
 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    height: 50px;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    height: 3rem;
 }
 
 .bottom-btn
 {
-    height: 50px;
+    height: 3rem;
 }

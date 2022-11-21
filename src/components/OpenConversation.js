@@ -43,7 +43,6 @@ export default function OpenConversation() {
           <FontAwesomeIcon icon={faCircleUser} className="header-user-icon" />
           {selectedConversation.recipients.map((r) => r.name).join(", ")}
         </div>
-        <div className="header-centre" />
         <div className="header-right">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}

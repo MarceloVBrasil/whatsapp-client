@@ -2,3 +2,9 @@
     display: flex;
     height: calc(85vh - 0px);
 }
+
+@media (width < 600px) {
+    .flex {
+        flex-direction: column;
+    }
+}
